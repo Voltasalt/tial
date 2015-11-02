@@ -6,5 +6,5 @@
 
 export PATH=$HOME/tial/bin:$PATH
 
-alias p='https://rawgit.com/Voltasalt/tial/master/p | sh'
+alias p='curl https://rawgit.com/Voltasalt/tial/master/p | sh'
 
