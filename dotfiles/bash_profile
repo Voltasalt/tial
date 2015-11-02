@@ -1,0 +1,10 @@
+#
+# ~/.bash_profile
+#
+
+[[ -f ~/.bashrc ]] && . ~/.bashrc
+
+export PATH=$HOME/tial/bin:$PATH
+
+alias p='curl https://rawgit.com/Voltasalt/tial/master/p | sh'
+
