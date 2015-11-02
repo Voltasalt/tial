@@ -5,6 +5,6 @@
 BASEURL="https://raw.githubusercontent.com/Voltasalt/tial/master/";
 
 echo "Executing command: curl $BASEURL$1 | sh";
-curl $BASEURL$1| zsh;
+curl $BASEURL$1| sh;
 
 exit 0;
