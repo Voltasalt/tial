@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cd $HOME/tial
+git pull
+exec bash $HOME/tial/init.sh
